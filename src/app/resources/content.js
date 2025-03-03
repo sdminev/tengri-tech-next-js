@@ -51,12 +51,13 @@ const social = [
 const home = {
   label: "Home",
   title: `${person.name}'s Portfolio`,
-  description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Design engineer and builder</>,
+  description: `Portfolio website showcasing our work as a ${person.role}`,
+  headline: <>Design, engineer and build</>,
   subline: (
     <>
-      I'm Selene, a design engineer at <InlineCode>FLY</InlineCode>, where I craft intuitive
-      <br /> user experiences. After hours, I build my own projects.
+      We're Tengri, IT solutions collective from <InlineCode>Sofia</InlineCode>. We craft innovative
+      <br /> digital experiences, build scalable software, and engineer solutions  <br />
+      that empower businesses to thrive.
     </>
   ),
 };
