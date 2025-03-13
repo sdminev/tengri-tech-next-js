@@ -6,7 +6,7 @@ const person = {
   get name() {
     return `${this.firstName} ${this.lastName}`;
   },
-  role: "Design Engineer",
+  role: "Design & Engineering",
   avatar: "/images/avatar.jpg",
   location: "Europe/Sofia", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
   languages: ["English", "Bulgarian"], // optional: Leave the array empty if you don't want to display languages
@@ -50,7 +50,7 @@ const social = [
 
 const home = {
   label: "Home",
-  title: `${person.name}'s Portfolio`,
+  title: `${person.name} Portfolio`,
   description: `Portfolio website showcasing our work as a ${person.role}`,
   headline: <>Design, engineer and build</>,
   subline: (
@@ -82,9 +82,7 @@ const about = {
     title: "Introduction",
     description: (
       <>
-        Selene is a Jakarta-based design engineer with a passion for transforming complex challenges
-        into simple, elegant design solutions. Her work spans digital interfaces, interactive
-        experiences, and the convergence of design and technology.
+        At Tengri, we combine cutting-edge technology with creative design to deliver solutions that not only meet but exceed our clients' expectations.
       </>
     ),
   },
